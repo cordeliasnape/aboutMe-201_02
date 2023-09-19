@@ -1,5 +1,5 @@
-let answer1 = confirm("Are you ready???");
-if (answer1 === true) {
+let readyQ = confirm("Are you ready???");
+if (readyQ === true) {
   username = prompt("Amazing!\nWhat's your name?");
   console.log("You're ready to rumble!");
 } else {

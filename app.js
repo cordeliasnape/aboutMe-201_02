@@ -19,8 +19,6 @@ if (first && third) {
   console.log("option 3");
 }
 
-let color = prompt("what is your fave colour?");
-
 switch (color) {
   case "red":
     console.log("your fave colour is red");
@@ -30,6 +28,23 @@ switch (color) {
     break;
   default:
     console.log;
+}
+
+// VIEWING switch/case again
+
+let color = prompt("what is your fave colour?");
+
+switch (
+  color //keyword and variable
+) {
+  case "red": //possibilites
+    console.log("your fave colour is red");
+    break;
+  case "blue":
+    console.log("your fave colour is blue");
+    break;
+  default:
+    console.log("who are you?");
 }
 
 //if colour is red 'your fav is red', else if color is blue 'your fav is blue'
