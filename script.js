@@ -14,9 +14,9 @@ if (userAge <= 8) {
   alert("Ew! How can you even use a computer.");
 } else if (userAge <= 24) {
   alert("You're young!");
-} else if (userAge === 25) {
+} else if (userAge == 25) {
   alert("We're the same age!");
-} else if (userAge <= 32 && userAge >= 26) {
+} else if ((userAge >= 26) & (userAge <= 32)) {
   alert("We're kind of the same age!");
 } else if (userAge <= 57) {
   alert("I bet you have a house and stuff.");
