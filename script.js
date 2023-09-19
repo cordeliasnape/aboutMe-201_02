@@ -11,17 +11,17 @@ console.log(username);
 
 let userAge = prompt("Hey " + username + ", how old are you?");
 if (userAge <= 8) {
-  alert("Ew! How can you even use a computer.");
+  alert("Ew! " + username + "! How can you even use a computer.");
 } else if (userAge <= 24) {
-  alert("You're young!");
+  alert("You're young, " + username + "!");
 } else if (userAge == 25) {
-  alert("We're the same age!");
+  alert("Wow, " + username + ". We're the same age!");
 } else if ((userAge >= 26) & (userAge <= 32)) {
-  alert("We're kind of the same age!");
+  alert("We're kind of the same age, " + username + ".");
 } else if (userAge <= 57) {
-  alert("I bet you have a house and stuff.");
+  alert("I bet you have a house and stuff, " + username + ".");
 } else {
-  alert("What are you doing on my website?");
+  alert("What are you doing on my website, " + username + "?");
 }
 
 //add if if if else  else else lol have specific ages
