@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+}
+
+header {
+  background-color: beige;
+  padding: 5px;
+  border: solid 3px bisque;
+  margin: 5px;
+}
+
+#name-box {
+  color: brown;
+  /* float: left; */
+}
+
+#links-box {
+  background-color: whitesmoke;
+  padding: 5px;
+  border: solid 3px bisque;
+  margin: 5px;
+  color: brown;
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; */
+}
