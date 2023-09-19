@@ -20,7 +20,69 @@ header {
   border: solid 3px bisque;
   margin: 5px;
   color: brown;
-  /* display: flex;
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
-  align-items: flex-end; */
+  width: 47%;
+}
+
+#find-me {
+  text-decoration: solid;
+  /* // not working */
+}
+
+.header-link {
+  padding: 5px;
+  margin: 5px;
+}
+
+main {
+  background-color: lightpink;
+  padding: 5px;
+  border: solid 3px bisque;
+  margin: 5px;
+}
+
+#bio-box {
+  background-color: beige;
+  padding: 5px;
+  border: solid 3px bisque;
+  margin: 5px;
+}
+
+#careers-box {
+  background-color: beige;
+  padding: 5px;
+  border: solid 3px bisque;
+  margin: 5px;
+}
+
+#education-box {
+  background-color: beige;
+  padding: 5px;
+  border: solid 3px bisque;
+  margin: 5px;
+}
+
+#quiz-box {
+  background-color: beige;
+  padding: 5px;
+  border: solid 3px bisque;
+  margin: 5px;
+}
+
+footer {
+  background-color: beige;
+  padding: 5px;
+  border: solid 3px bisque;
+  margin: 5px;
+}
+
+#footer-link {
+  padding: 5px;
+  margin: 5px;
+}
+
+#footer-text {
+  text-align: center;
 }
