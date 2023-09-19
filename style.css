@@ -7,23 +7,38 @@ header {
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
+  font-family: "Courier New", Courier, monospace;
+  height: 80px;
+  text-align: center;
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #name-box {
   color: brown;
-  /* float: left; */
+  max-height: 100%;
+  max-width: 47%;
+  float: left;
+  margin-left: 40px;
+  margin-right: 20px;
 }
 
 #links-box {
   background-color: whitesmoke;
   padding: 5px;
   border: solid 3px bisque;
-  margin: 5px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   color: brown;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  width: 47%;
+  max-width: 60%;
+  float: right;
 }
 
 #find-me {
@@ -34,6 +49,20 @@ header {
 .header-link {
   padding: 5px;
   margin: 5px;
+  border-radius: 5px;
+  border: solid palegoldenrod 3px;
+  background-color: rgb(217, 122, 138);
+  color: aliceblue;
+}
+
+.page-link {
+  padding: 5px;
+  margin: 5px;
+  width: 7rem;
+  border-radius: 5px;
+  border: solid pink 3px;
+  background-color: rgb(217, 122, 138);
+  color: aliceblue;
 }
 
 main {
@@ -48,6 +77,28 @@ main {
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
+  max-height: 450px;
+  border-radius: 10px;
+}
+
+#bio-text {
+  background-color: whitesmoke;
+  padding: 5px;
+  border: solid 3px bisque;
+  margin: 5px;
+  border-radius: 10px;
+  color: rgb(83, 38, 45);
+  width: 72%;
+  max-height: 100%;
+  float: right;
+}
+
+#bio-img {
+  max-width: 25%;
+  max-height: 100%;
+  margin: 2px;
+  border: solid 3px bisque;
+  border-radius: 10px;
 }
 
 #careers-box {
@@ -55,6 +106,8 @@ main {
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
+  border-radius: 10px;
+  color: rgb(83, 38, 45);
 }
 
 #education-box {
@@ -62,6 +115,8 @@ main {
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
+  border-radius: 10px;
+  color: rgb(83, 38, 45);
 }
 
 #quiz-box {
@@ -69,20 +124,29 @@ main {
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
+  border-radius: 10px;
+  color: rgb(83, 38, 45);
 }
 
 footer {
-  background-color: beige;
+  background-color: whitesmoke;
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
+  font-family: "Courier New", Courier, monospace;
 }
 
-#footer-link {
+.footer-link {
   padding: 5px;
   margin: 5px;
+  width: 7rem;
+  border-radius: 5px;
+  border: solid pink 3px;
+  background-color: rgb(217, 122, 138);
+  color: aliceblue;
 }
 
 #footer-text {
   text-align: center;
+  padding: 10px;
 }
