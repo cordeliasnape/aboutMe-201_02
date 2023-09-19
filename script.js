@@ -8,3 +8,7 @@ if (answer1 === true) {
 }
 let userName = prompt;
 console.log(username);
+
+let userAge = prompt("Hey " + username + ", how old are you?");
+
+//add if if if else  else else lol have specific ages
