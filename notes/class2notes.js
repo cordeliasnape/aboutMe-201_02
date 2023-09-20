@@ -158,6 +158,8 @@ arr.splice(indexOfTim, 1);
 
 ///
 
+// added
+
 while (!user) {
   user = prompt("You need to actually tell me.");
 }

@@ -6,6 +6,9 @@ if (readyQ === true) {
   username = prompt("Boooo!!!\nWhat's your name?");
   console.log("You're not ready to rumble :(");
 }
+while (!username) {
+  username = prompt("You need to actually tell me.");
+}
 let message = "Hello, " + username + ".";
 
 document.write(message);
