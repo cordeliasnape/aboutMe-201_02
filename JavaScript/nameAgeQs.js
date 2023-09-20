@@ -6,6 +6,10 @@ if (readyQ === true) {
   username = prompt("Boooo!!!\nWhat's your name?");
   console.log("You're not ready to rumble :(");
 }
+let message = "Hello, " + username + ".";
+
+document.write(message);
+
 let userName = prompt;
 console.log(username);
 

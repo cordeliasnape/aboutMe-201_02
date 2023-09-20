@@ -8,7 +8,7 @@ header {
   border: solid 3px bisque;
   margin: 5px;
   font-family: "Courier New", Courier, monospace;
-  height: 80px;
+  height: 120px;
   text-align: center;
 }
 
@@ -43,7 +43,7 @@ main {
 
 #find-me {
   text-decoration: solid;
-  /* // not working */
+  /* not working */
 }
 
 .header-link {
@@ -70,6 +70,14 @@ main {
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
+}
+
+.box-title {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: wavy;
+  /* not working */
 }
 
 #bio-box {
@@ -110,6 +118,10 @@ main {
   color: rgb(83, 38, 45);
 }
 
+li {
+  color: lightslategrey;
+}
+
 #education-box {
   background-color: beige;
   padding: 5px;
@@ -139,10 +151,6 @@ main {
   border-radius: 10px;
   color: rgb(83, 38, 45);
   width: 40%;
-}
-
-#top10-title {
-  text-align: center;
 }
 
 #top10-list {
