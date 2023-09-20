@@ -126,6 +126,27 @@ main {
   margin: 5px;
   border-radius: 10px;
   color: rgb(83, 38, 45);
+  width: 56%;
+  float: right;
+  height: 250px;
+}
+
+#top10-box {
+  background-color: beige;
+  padding: 5px;
+  border: solid 3px bisque;
+  margin: 5px;
+  border-radius: 10px;
+  color: rgb(83, 38, 45);
+  width: 40%;
+}
+
+#top10-title {
+  text-align: center;
+}
+
+#top10-list {
+  color: maroon;
 }
 
 footer {
