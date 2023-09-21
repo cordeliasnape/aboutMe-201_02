@@ -1,26 +1,23 @@
-alert(
+let answer = 8;
+let guess = prompt(
   "I have a lucky number between 1-10\nCan you guess it?\nYou have 4 tries."
 );
+let attempts = 4;
 
-let answer = 8;
-let guess = prompt("Can you guess it?");
-
-for (let i = 0; i < 3; i++) {
-  if (answer == guess) {
-    alert("Correct!");
-    console.log(guess);
-    // break;
+while (attempts > 1) {
+  attempts--;
+  if (guess > answer) {
+    alert("Too high!");
+    guess = prompt("Guess again! You have  " + attempts + " left.");
+  } else if (guess < answer) {
+    alert("Too low!");
+    guess = prompt("Guess again! You have  " + attempts + " left.");
+  } else if (parseInt(guess) === answer) {
+    alert("Well done! It was 8.");
+    break;
   }
-  // else if (guess <= 7) {
-  //   guess = prompt("Higher!!");
-  //   guess();
-  // }
-  // else if (guess >= 9) {
-  //     alert("Lower!");
-  //     guess();
-  // }
-  else {
-    guess = prompt("Guess again!");
-    console.log(guess);
+
+  if (parseInt(guess) !== answer) {
+    alert("The answer was __");
   }
 }
