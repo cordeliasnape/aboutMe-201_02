@@ -125,3 +125,51 @@ if (answers.indexOf(guess) !== -1)
 //NOTE: changing the section>position:relative, the article>absolute will only move within the relative section - absolte is effected by it's parents and grandparents
 
 //potentially move divs into articles for HTML
+
+// Fucntions
+// repeatable block of code
+
+function sayHello() {}
+
+//how to invoke or call a funtion:
+sayHello();
+
+//when we declare a function, we can have parameters to give names to function inputs:
+function customGreeting(user) {
+  console.log("Hello " + user);
+}
+
+//invoking it with a new parament passing the argument
+customGreeting("Name");
+
+//if we want to pass multiple parameters, we separate them with a comma
+
+function doMaths(num1, num2) {
+  console.log(num1 + num2);
+}
+
+//invoking it the same way but with multiple comma separated arguments
+doMaths(4, 5);
+
+//our functions can return a value
+
+function getFullName(first, last) {
+  return first + " " + last;
+}
+//when a fucntion returns a value, we can put that value into a variable
+let fullName = getFullName("Manny", "Gonzalez");
+
+// we can have a function that takes user input
+function makePizza(promptInfo1, promptInfo2) {
+  //just the name promptInfo
+  let ing1 = prompt(promptInfo1);
+  let ing2 = prompt(promptInfo2);
+
+  let output = "Here is your pizza with extra " + ing1 + ", and no " + ing2;
+
+  return output;
+}
+let ultimatePizza = makePizza(
+  "What is your fave topping?",
+  "What is your least fave topping?"
+);
