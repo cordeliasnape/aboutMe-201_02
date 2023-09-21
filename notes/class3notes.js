@@ -79,3 +79,49 @@ while (attempts > 1) {
     alert("The answer was __"); // tell the user the answer
   }
 }
+
+/// Question 7
+
+let answers = ["daisy", "rose", "rich", "lily"];
+
+let plantGuess = prompt("What is one of my favourite plants?");
+
+// let example = answers.indexOf("daisy") // answer is 0 bc it's the position within the array
+
+// let example = answers.length // answer is 4 bc there are 4 items
+
+// answers.push("baobab") // adds something to the end of the array
+
+//to check index of the guess
+
+let idx = answers.indexOf(guess); // checking the index of the prompt
+
+console.log(idx); // answer is 2 if rich, etc
+
+if (answers.indexOf(guess) !== -1)
+  [alert("That's correct, I really like " + plantGuess)];
+
+// answer is within question 6
+
+/// ____going back to lab 04____
+//CSS Positioning
+
+// we can move elements by declaring their top, right, bottom or left positioning
+// but css postitioning properties such as static, relative, absolute or fixed will determine how the rules are interpreted
+
+// making a section
+// default of section tage is "position: static"
+//
+
+// relative - doesn't obvs move anything, but giving a top 10px and increasing it allows it to move around the page. Relative means it can move however many pixels on the page (most rules of any of them) from the top, it moves... from the right it will move ... px ....
+
+// absolute is removing it from the order of things - fixed will move up and in front of as though it's not there - setting "top: 4rem;" moves it all the way up to 4 rem. Can say - top: 100px and it will move 100px FROM the top. Modals can be moved into the centre of the screen through absolute
+
+// fixed is floating and unmoving on the screen, can cover things unless margin and padding account for it
+
+//
+// margin: 5rem auto 0 auto -> top, right bottom, left (clockwise) - right and left are auto and etc
+
+//NOTE: changing the section>position:relative, the article>absolute will only move within the relative section - absolte is effected by it's parents and grandparents
+
+//potentially move divs into articles for HTML
