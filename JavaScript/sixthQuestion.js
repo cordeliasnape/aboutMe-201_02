@@ -16,8 +16,7 @@ while (attempts > 1) {
     alert("Well done! It was 8.");
     break;
   }
-
-  if (parseInt(guess) !== answer) {
-    alert("The answer was __");
-  }
+}
+if (parseInt(guess) !== answer) {
+  alert("The answer was __");
 }
