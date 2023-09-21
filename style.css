@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@300&display=swap");
+
 body {
   background-color: white;
 }
@@ -7,13 +9,23 @@ header {
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
-  font-family: "Courier New", Courier, monospace;
   height: 120px;
   text-align: center;
+  position: relative;
+  font-family: "Caprasimo", cursive;
 }
 
 main {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+#back-top {
+  position: fixed;
+  width: 100px;
+  height: 50px;
+  z-index: 99;
+  right: 30px;
+  bottom: 25px;
 }
 
 #name-box {
@@ -29,40 +41,63 @@ main {
   background-color: whitesmoke;
   padding: 5px;
   border: solid 3px bisque;
-  margin-right: 100px;
+  margin-right: 50px;
   margin-left: 100px;
-  margin-top: 5px;
+  margin-top: 20px;
   margin-bottom: 5px;
   color: brown;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   max-width: 60%;
-  float: right;
+  position: absolute;
+  right: 0px;
+  height: auto;
 }
 
 #find-me {
+  font-size: 20px;
+  margin: 37px 10px 5px 10px;
   text-decoration: solid;
   /* not working */
 }
 
+h1 {
+  font-family: "Caprasimo", cursive;
+  text-shadow: 2px 2px white;
+  font-size: 40px;
+  padding: 20px;
+  border: 10px;
+  background-color: rgb(217, 122, 138);
+}
+
+h2 {
+  font-family: "Caprasimo", cursive;
+  text-shadow: 2px 2px white;
+  font-size: 30px;
+}
+
 .header-link {
   padding: 5px;
-  margin: 5px;
+  margin: 20px 5px 5px 5px;
+  height: 50px;
   border-radius: 5px;
   border: solid palegoldenrod 3px;
   background-color: rgb(217, 122, 138);
   color: aliceblue;
+  font-family: "Poppins", sans-serif;
 }
 
 .page-link {
   padding: 5px;
-  margin: 5px;
+  margin: 20px 5px 5px 5px;
+  height: 50px;
   width: 7rem;
   border-radius: 5px;
   border: solid pink 3px;
   background-color: rgb(217, 122, 138);
   color: aliceblue;
+  font-family: "Poppins", sans-serif;
 }
 
 main {
@@ -70,6 +105,7 @@ main {
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
+  position: relative;
 }
 
 .box-title {
@@ -81,7 +117,7 @@ main {
 }
 
 #bio-box {
-  background-color: beige;
+  background-color: rgb(162, 161, 161);
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
@@ -99,6 +135,7 @@ main {
   width: 72%;
   max-height: 100%;
   float: right;
+  font-size: 25px;
 }
 
 #bio-img {
@@ -107,6 +144,7 @@ main {
   margin: 2px;
   border: solid 3px bisque;
   border-radius: 10px;
+  box-shadow: 5px 5px rgb(251, 239, 223);
 }
 
 #careers-box {
@@ -132,7 +170,7 @@ li {
 }
 
 #quiz-box {
-  background-color: beige;
+  background-color: rgb(212, 242, 242);
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
@@ -141,6 +179,24 @@ li {
   width: 56%;
   float: right;
   height: 250px;
+}
+
+.quiz-button {
+  height: 100px;
+  width: 150px;
+  padding: 0px 10px;
+  margin: 5px 15px;
+  flex-direction: row;
+  border-radius: 5px;
+  border: solid pink 3px;
+  background-color: rgb(217, 215, 122);
+  color: aliceblue;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.quiz-button:hover {
+  background-color: rgb(222, 180, 96);
 }
 
 #top10-box {
