@@ -86,7 +86,7 @@ function quiz() {
     // console.log("Try again and try again CORRECTLY!!!!");
     alert("Try again and try again CORRECTLY!!!!");
   }
-  let notice = confirm("You have " + userPoints + " points.");
+  // let notice = confirm("You have " + userPoints + " points.");
 }
 // while (answer5 !== "yes" || answer5 !== "y") {
 //   answer5 = prompt(                                                     //can change this to a function
