@@ -19,13 +19,22 @@ main {
   font-family: "Poppins", sans-serif;
 }
 
+:link {
+  color: white;
+}
+
+:visited {
+  color: rgb(187, 224, 254);
+}
+
 #back-top {
   position: fixed;
   width: 100px;
   height: 50px;
   z-index: 99;
-  right: 30px;
+  right: 36px;
   bottom: 25px;
+  color: black;
 }
 
 #name-box {
@@ -148,12 +157,14 @@ main {
 }
 
 #careers-box {
-  background-color: beige;
+  background-color: rgb(233, 218, 238);
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
   border-radius: 10px;
   color: rgb(83, 38, 45);
+  width: 48%;
+  height: 520px;
 }
 
 li {
@@ -161,12 +172,17 @@ li {
 }
 
 #education-box {
-  background-color: beige;
+  background-color: rgb(192, 227, 192);
   padding: 5px;
   border: solid 3px bisque;
   margin: 5px;
   border-radius: 10px;
   color: rgb(83, 38, 45);
+  width: 48%;
+  position: absolute;
+  height: 520px;
+  right: 10px;
+  top: 421px;
 }
 
 #quiz-box {
@@ -177,8 +193,11 @@ li {
   border-radius: 10px;
   color: rgb(83, 38, 45);
   width: 56%;
-  float: right;
-  height: 250px;
+  position: absolute;
+  right: 10px;
+  height: 330px;
+  width: 56%;
+  bottom: 5px;
 }
 
 .quiz-button {
@@ -186,7 +205,7 @@ li {
   width: 150px;
   padding: 0px 10px;
   margin: 5px 15px;
-  flex-direction: row;
+  display: inline-block;
   border-radius: 5px;
   border: solid pink 3px;
   background-color: rgb(217, 215, 122);
@@ -214,17 +233,20 @@ li {
 }
 
 footer {
-  background-color: whitesmoke;
+  background-color: beige;
   padding: 5px;
-  border: solid 3px bisque;
+  border: solid 10px bisque;
   margin: 5px;
-  font-family: "Courier New", Courier, monospace;
+  height: 100px;
+  font-family: "Caprasimo", cursive;
+  color: rgb(217, 122, 138);
 }
 
 .footer-link {
   padding: 5px;
   margin: 5px;
   width: 7rem;
+  height: 50px;
   border-radius: 5px;
   border: solid pink 3px;
   background-color: rgb(217, 122, 138);
@@ -233,5 +255,5 @@ footer {
 
 #footer-text {
   text-align: center;
-  padding: 10px;
+  margin-top: 40px;
 }
